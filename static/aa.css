@@ -1,0 +1,60 @@
+.button-new{
+				margin-top: 40px;
+				margin-left: 100px;
+				/*background:url(img/按钮.png)  ; //给个按钮上个背景*/
+				border: 0px;
+				border-radius: 12px;
+				width: 135px;
+				height: 49px;
+				cursor: pointer;
+			    font-size: 0;
+			}
+.choice_file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.choice_file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.choice_file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+.file-box {
+    position: relative;
+    display: inline-block;
+}
+.file-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: inline-block;
+    border: none;
+}
+.file-box .txt,.file-box .file {
+    width: 70px;
+    height: 36px;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    text-align: center;
+}
